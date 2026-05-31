@@ -1,6 +1,6 @@
-# DLRMS — Digital Land Records & Allotment Management System
+# DLRMS : Digital Land Records & Allotment Management System
 
-> A Salesforce-native platform for digitizing and automating the complete lifecycle of government land administration — from parcel registration and citizen allotments to payments, inspections, grievance resolution, and compliance reporting.
+> A Salesforce-native platform for digitizing and automating the complete lifecycle of government land administration, from parcel registration and citizen allotments to payments, inspections, grievance resolution, and compliance reporting.
 
 ---
 
@@ -36,7 +36,7 @@
 
 Land administration is one of the most fundamental responsibilities of government institutions. Accurate land records are essential for maintaining property ownership, allocating land resources, resolving disputes, collecting government revenue, and ensuring transparency in public administration.
 
-**DLRMS** is a centralized digital platform built on the **Salesforce Platform** that digitizes the complete lifecycle of land administration — from parcel registration and citizen applications to approvals, payments, inspections, and grievance management. It replaces fragmented manual processes with standardized workflows, automated notifications, and centralized record storage — all with full auditability.
+**DLRMS** is a centralized digital platform built on the **Salesforce Platform** that digitizes the complete lifecycle of land administration, from parcel registration and citizen applications to approvals, payments, inspections, and grievance management. It replaces fragmented manual processes with standardized workflows, automated notifications, and centralized record storage, all with full auditability.
 
 The system serves three user groups: **citizens** who apply for and manage land allotments, **government officials** who verify, approve, and inspect, and **administrators** who govern the platform and monitor operational performance.
 
@@ -174,10 +174,10 @@ Inspection records capture: date, assigned official, findings, and recommendatio
 ### 7. Analytics & Transparency
 
 Dashboards covering:
-- **Land Utilization** — Available, allocated, and disputed parcels
-- **Official Performance** — Applications processed, grievances resolved
-- **Revenue Analytics** — Fees collected vs. overdue payments
-- **SLA Compliance** — Grievance resolution time tracking
+- **Land Utilization** : Available, allocated, and disputed parcels
+- **Official Performance** : Applications processed, grievances resolved
+- **Revenue Analytics** : Fees collected vs. overdue payments
+- **SLA Compliance** : Grievance resolution time tracking
 
 ---
 
@@ -370,10 +370,10 @@ Land Parcel    ──(M:1)──▶  Official
 ## Security & Access Control
 
 ### Profiles
-- `Citizen` — portal access only, own records visible
-- `Official` — assigned parcels and cases
-- `Approver` — application approval rights
-- `Admin` — full system access
+- `Citizen` : portal access only, own records visible
+- `Official` : assigned parcels and cases
+- `Approver` : application approval rights
+- `Admin` : full system access
 
 ### Permission Sets
 
